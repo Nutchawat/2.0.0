@@ -8,6 +8,5 @@ parser: babel-eslint
 rules:
   object-curly-spacing: [ error, always ]
   react/prop-types: off
-  jsx-a11y/rule-name: 2
 globals:
   React: false

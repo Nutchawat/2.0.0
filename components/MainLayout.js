@@ -37,7 +37,7 @@ const handleLinkClick = (event) => {
 
 export default function MainLayout ({ children }) {
   return (
-    <div onClick={handleLinkClick}>
+    <div onClick={handleLinkClick} onKeyDown={this.handleKeyDown} role='link' tabIndex='0' >
       <Head>
         <title>React Bangkok 2.0.0</title>
         <meta
